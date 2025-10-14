@@ -1,0 +1,133 @@
+https://talentship.test.octonomy.ai/users
+{
+  overAllUser: {
+    totalUsersCount: 99,
+    totalSuperAdminCount: 60,
+    totalBusinessAnalystCount: 10,
+    totalEndUserCount: 28,
+    totalSupervisorCount: 1
+  },
+  users: [
+    {
+      id: '03fe2471-7f95-4e07-8c63-7bd51f3a9396',
+      email: 'Nancy.Langgartner@octonomy.ai',
+      username: 'talentship_Nancy.Langgartner@octonomy.ai',
+      cognitoSub: 'c92e0d87-355b-4a84-bba8-74724eea21de',
+      name: 'Nancy Langgartner',
+      createdAt: '2025-05-17T07:01:29.762Z',
+      lastLogin: null,
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '05d8cd09-43a1-49d0-8919-868ba0b83325',
+      email: 'john.saferio@talentship.io',
+      username: 'talentship_john.saferio@talentship.io',
+      cognitoSub: 'b3e8b991-ea0e-4913-86d6-4d66de3d09c7',
+      name: 'John Saferio',
+      createdAt: '2025-07-16T07:43:21.641Z',
+      lastLogin: '2025-10-13T04:00:57.178Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '0c226ed3-7a9d-4634-97ef-873bf2997d95',
+      email: 'vivek.jaishankar@talentship.io',
+      username: 'talentship_vivek.jaishankar@talentship.io',
+      cognitoSub: 'b245b308-d903-4d93-9fdc-bc99a06467f2',
+      name: 'Vivek Jaishankar',
+      createdAt: '2025-07-01T09:56:33.341Z',
+      lastLogin: '2025-10-13T14:54:25.284Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '0ff0d441-4493-4a21-9fbd-a0228f617fff',
+      email: 'c.greissl@bora.com',
+      username: 'talentship_c.greissl@BORA.com',
+      cognitoSub: '4285b010-37d5-4013-a227-aed3c7afb843',
+      name: null,
+      createdAt: '2025-05-14T15:20:45.452Z',
+      lastLogin: '2025-05-14T15:20:45.471Z',
+      status: true,
+      role: 'End User',
+      roleType: 'END_USER'
+    },
+    {
+      id: '10cc6c73-783b-4c7f-a0dc-b0345658d436',
+      email: 'SathishKumar.Paranthaman@talentship.io',
+      username: 'talentship_SathishKumar.Paranthaman@talentship.io',
+      cognitoSub: '54ca1b12-59f8-44c4-a310-71c8cf87cded',
+      name: 'SathishKumar Paranthaman',
+      createdAt: '2024-10-23T14:02:39.640Z',
+      lastLogin: '2025-10-10T10:46:48.148Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '10d0d272-1555-40bb-9fb1-22aace07843e',
+      email: 'vignesh.raja@talentship.io',
+      username: 'talentship_vignesh.raja@talentship.io',
+      cognitoSub: '3020117d-3886-4b2d-b7ea-79b9ddd5313e',
+      name: 'Vignesh Raja',
+      createdAt: '2025-05-28T14:35:22.017Z',
+      lastLogin: '2025-10-10T13:15:07.164Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '142ea154-b841-4517-be74-629bfe67ccb3',
+      email: 'christian.braun@toptica.com',
+      username: 'talentship_braunc@toptica.com',
+      cognitoSub: '59ff8048-1b18-461a-b288-89fdab49d19d',
+      name: 'christian braun',
+      createdAt: '2024-11-15T09:52:53.597Z',
+      lastLogin: null,
+      status: true,
+      role: 'End User',
+      roleType: 'END_USER'
+    },
+    {
+      id: '15605a92-d071-4205-be1d-5b37a5510a42',
+      email: 'zacharias.doehmann@octonomy.ai',
+      username: 'talentship_Zacharias.Doehmann@octonomy.ai',
+      cognitoSub: 'a26faadd-e770-4fb8-a509-be9d460a1271',
+      name: 'zacharias Doehmann',
+      createdAt: '2025-04-30T08:30:02.472Z',
+      lastLogin: '2025-08-12T14:46:17.406Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '16691ffb-cff6-4e19-86a1-2a45cf7460ae',
+      email: 'vivek.baskaran@talentship.io',
+      username: 'talentship_vivek.baskaran@talentship.io',
+      cognitoSub: 'c2b5da19-d374-44e6-b65c-dc49fa3777e9',
+      name: 'Vivek Baskaran',
+      createdAt: '2025-01-06T12:44:54.249Z',
+      lastLogin: '2025-10-10T13:10:35.259Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '18c58d13-791f-48f1-90b5-66f621e3fad8',
+      email: 'e.minschke@prokon.net',
+      username: 'talentship_E.Minschke@prokon.net',
+      cognitoSub: 'a08aa9a3-0b46-4b4b-9471-c4adc60488bb',
+      name: 'E Minschke',
+      createdAt: '2025-05-19T09:39:41.629Z',
+      lastLogin: '2025-05-19T09:39:41.641Z',
+      status: true,
+      role: 'End User',
+      roleType: 'END_USER'
+    }
+  ],
+  pagination: { totalRecords: 89, totalPages: 9 }
+}

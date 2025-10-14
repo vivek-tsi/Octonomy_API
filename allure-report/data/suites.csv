@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6328","has title","firefox","Mon Oct 13 15:46:53 IST 2025","failed","Mon Oct 13 15:46:59 IST 2025","","example.spec.ts","",""
+"","5792","has title","chromium","Mon Oct 13 15:46:53 IST 2025","failed","Mon Oct 13 15:46:59 IST 2025","","example.spec.ts","",""
+"","5701","has title","webkit","Mon Oct 13 15:46:53 IST 2025","failed","Mon Oct 13 15:46:59 IST 2025","","example.spec.ts","",""

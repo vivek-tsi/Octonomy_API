@@ -1,0 +1,26 @@
+{
+  "name": "octonomy_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "env:test": "cross-env test_env=test npx playwright test",
+    "env:demo": "cross-env test_env=demo npx playwright test",
+    "env:prod": "cross-env test_env=prod npx playwright test",
+    "env:stage": "cross-env test_env=stage npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2",
+    "allure-playwright": "^3.4.1",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}
