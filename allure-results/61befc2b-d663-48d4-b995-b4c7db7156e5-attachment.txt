@@ -1,0 +1,10 @@
+Bad Request
+{
+  path: '/api/appconnect/tools',
+  timestamp: '2025-10-18T14:46:33.321Z',
+  message: [
+    'type must be one of the following values: ENDPOINT, CODE, CUSTOM_RESOURCE'
+  ],
+  statusCode: 400,
+  error: {}
+}

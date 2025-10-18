@@ -1,0 +1,47 @@
+OK
+{
+  id: '41846d30-8082-4b84-988f-6bae0e2ddbc7',
+  name: 'Updated Tool Name',
+  toolId: 'updatedToolName',
+  description: 'Updated tool description',
+  connectorId: '076d674c-95fe-4799-9015-51c106b4aff7',
+  connectorType: 'HTTP_CONNECTOR',
+  version: 'v2',
+  method: 'POST',
+  slug: '',
+  bodyTemplate: '{"url":"https://talentship.stg.octonomy.ai/","headers":{"Authorization":"eyJraWQiOiJiVmZGTDVIc3U3MDZhRUgxc2M0MHZQZkZEV2VOTW5rNW1RVHdjalVEUTNnPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MzE0Nzg3Mi00MDIxLTcwNjUtNTI2NS1iNTU4ZDg0NjBmZDkiLCJjb2duaXRvOmdyb3VwcyI6WyJCVVNJTkVTU19BTkFMWVNUIl0sImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX01PMm9HWWtqRyIsInZlcnNpb24iOjIsImNsaWVudF9pZCI6IjFpaXNtNGE1NzR0MHBsdThtcTZsa201azdqIiwib3JpZ2luX2p0aSI6IjAzNmUxMDk4LThiNDItNDkzYy04YTBhLTBiZDJjYjViZDJmMSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE3NjA3OTg3ODQsImV4cCI6MTc2MDg4NTE4NCwiaWF0IjoxNzYwNzk4Nzg0LCJqdGkiOiJmNzY2MzM4Yi0zNGNiLTQwNmItYjE1Yi0wNWUxYjgzMzYwNmUiLCJ1c2VybmFtZSI6InRhbGVudHNoaXBfcXVpY2tzdGVwLXFhLXVzZXItMDFAdGFsZW50c2hpcC5pbyJ9.ILV2_u8KDirmT5XhP4HLM76jUnfTeH9qJ16RxD871LuZjUsj45DTQouP5OFhGg0shGvwhzXxCgpUSy13j1Iefv8PgCJXdmstQh47YA8H2RzogmvRotGr77cJuMpPQFiVhfJk2JJp9PWPQye6ogBVYucrO4Efaf23lQojG10prYjjdmziqEJCdH0bmMpv46MLUCvedB05rv0IbqNt7JBipdQDQ-h717n-4SemVakP9FbyZo2VpPLtjdC0EwHyAkjNJNhtrEZptmmIdHTBAg4ACBJKUOjBYXOHwzjpzxs-6mhJHGYzRw-dSi1cqZlMqfEHitVUQRypb6HOqzm5SK5Ssw"}}',
+  createdAt: '2025-10-18T14:52:35.265Z',
+  updatedAt: '2025-10-18T14:52:36.089Z',
+  deletedAt: null,
+  createdBy: '50413dd8-0011-4776-a9d0-5b4ab0ae4a81',
+  updatedBy: null,
+  deletedBy: null,
+  runtime: 'HTTP',
+  type: 'ENDPOINT',
+  apiType: 'REST',
+  environment: null,
+  sourceType: null,
+  sourcePath: null,
+  sourceFormat: null,
+  entryPoint: null,
+  status: 'ACTIVE',
+  sourceVersion: null,
+  params: [
+    {
+      id: 'ba4feb49-ce15-4a3a-840e-8319fd64aa4c',
+      toolId: '41846d30-8082-4b84-988f-6bae0e2ddbc7',
+      parentParamId: null,
+      name: 'userId',
+      description: 'The ID of the user',
+      type: 'STRING',
+      defaultValue: null,
+      usageIn: 'BODY',
+      required: true,
+      multi: false,
+      minItems: null,
+      maxItems: null,
+      position: 1,
+      validation: [Object]
+    }
+  ]
+}

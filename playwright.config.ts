@@ -6,13 +6,13 @@ import dotenv from 'dotenv';
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: true,
+  fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
   reporter: [
   ['html'], 
-  ['allure-playwright',{outputFolder: 'my-allure'}]],
+  ['allure-playwright']],
   globalSetup:'utility/globalsetup.ts',
   timeout:30000,
   
@@ -21,10 +21,10 @@ export default defineConfig({
     
     //baseURL: 'https://localhost:3000',
     
-   extraHTTPHeaders: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.TOKEN}`,
-    },
+  //  extraHTTPHeaders: {
+  //     'Content-Type': 'application/json',
+  //     'Authorization': `Bearer ${process.env.TOKEN}`,
+  //   },
    
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
@@ -34,13 +34,18 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'chrome',
+      use: { ...devices['Desktop Chrome'] ,
+        headless:false
+      },
     },
 
     // {
     //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
+    //   use: { ...devices['Desktop Firefox'],
+    //     headless:false,
+
+    //    },
     // },
 
     // {

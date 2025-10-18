@@ -1,4 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6328","has title","firefox","Mon Oct 13 15:46:53 IST 2025","failed","Mon Oct 13 15:46:59 IST 2025","","example.spec.ts","",""
-"","5792","has title","chromium","Mon Oct 13 15:46:53 IST 2025","failed","Mon Oct 13 15:46:59 IST 2025","","example.spec.ts","",""
-"","5701","has title","webkit","Mon Oct 13 15:46:53 IST 2025","failed","Mon Oct 13 15:46:59 IST 2025","","example.spec.ts","",""
+"","838","Create new tool","chrome","Sat Oct 18 18:12:33 IST 2025","passed","Sat Oct 18 18:12:34 IST 2025","Users API","user.test.ts","",""
+"","803","Update tool","chrome","Sat Oct 18 18:12:34 IST 2025","passed","Sat Oct 18 18:12:34 IST 2025","Users API","user.test.ts","",""
+"","17957","should get list of users","chrome","Sat Oct 18 18:12:14 IST 2025","passed","Sat Oct 18 18:12:32 IST 2025","Users API","user.test.ts","",""
+"","768","Delete tool","chrome","Sat Oct 18 18:12:34 IST 2025","passed","Sat Oct 18 18:12:35 IST 2025","Users API","user.test.ts","",""

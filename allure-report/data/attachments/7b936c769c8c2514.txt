@@ -1,0 +1,133 @@
+OK
+{
+  overAllUser: {
+    totalUsersCount: 73,
+    totalSuperAdminCount: 53,
+    totalBusinessAnalystCount: 3,
+    totalEndUserCount: 17,
+    totalSupervisorCount: 0
+  },
+  users: [
+    {
+      id: '00a3fb3b-8a5a-44ab-a4b2-150741f18e98',
+      email: 'nadja.westheermann@talentship.io',
+      username: 'talentship_nadja.westheermann@talentship.io',
+      cognitoSub: 'c3b4b862-8031-7000-c0c1-a68276611494',
+      name: 'Nadja Westheermann',
+      createdAt: '2025-01-17T07:56:10.871Z',
+      lastLogin: '2025-10-16T20:57:46.404Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '104828e5-76e1-48d4-a212-3643cddf6e30',
+      email: 'nivedha.selvam@talentship.io',
+      username: 'talentship_nivedha.selvam@talentship.io',
+      cognitoSub: 'a3b4a8f2-60f1-70d5-7d56-f109b2f0dcb5',
+      name: 'NIVEDHA THIRAVIDA SELVAM',
+      createdAt: '2025-03-12T05:34:49.781Z',
+      lastLogin: '2025-10-15T07:38:12.938Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '1534fb93-7116-444a-b5d3-4ac07f26b736',
+      email: 'Axel.Elsner@europcar.com',
+      username: 'talentship_Axel.Elsner_europcar.com#EXT#@talentship365.onmicrosoft.com',
+      cognitoSub: '3384e872-6091-7032-18c0-6962ab2d0620',
+      name: 'Axe Elsner',
+      createdAt: '2025-02-18T09:31:50.029Z',
+      lastLogin: null,
+      status: true,
+      role: 'End User',
+      roleType: 'END_USER'
+    },
+    {
+      id: '16e756cd-a4a0-4240-8e79-029ff8845772',
+      email: 'farook.jintha@talentship.io',
+      username: 'talentship_farook.jintha@talentship.io',
+      cognitoSub: 'e3c4a8d2-0081-70f2-f2eb-13d522859844',
+      name: 'Farook Jintha',
+      createdAt: '2024-12-11T11:19:20.277Z',
+      lastLogin: '2025-07-22T10:26:59.494Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '291e4ad8-4a4d-4bac-9bb7-0afbde091c6e',
+      email: 'Rajeshwar.rajakumar@talentship.io',
+      username: 'talentship_Rajeshwar.rajakumar@talentship.io',
+      cognitoSub: 'c36488d2-1001-7029-1fab-634454f44bae',
+      name: 'Rajeshwar Rajakumar',
+      createdAt: '2025-05-27T15:01:53.591Z',
+      lastLogin: '2025-10-03T06:40:32.011Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '31b7ec6e-87e8-44f8-98ba-3311cc17a7d2',
+      email: 'nandha.kumar@talentship.io',
+      username: 'talentship_nandha.kumar@talentship.io',
+      cognitoSub: 'f3746822-c011-70f5-50b0-dccbb0ed1013',
+      name: 'Nandha Kumar',
+      createdAt: '2025-08-28T08:27:02.226Z',
+      lastLogin: '2025-08-28T08:27:02.329Z',
+      status: true,
+      role: 'End User',
+      roleType: 'END_USER'
+    },
+    {
+      id: '32d8c4e9-5ac7-413f-b53d-bd6b60a74edc',
+      email: 'manikandan.krishnasamy@talentship.io',
+      username: 'talentship_manikandan.krishnasamy@talentship.io',
+      cognitoSub: '1384b822-e021-7057-8097-386f88287b5b',
+      name: 'Manikandan Krishnasamy',
+      createdAt: '2025-07-15T12:49:12.124Z',
+      lastLogin: '2025-07-29T15:48:34.988Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '3863d8d2-cdd5-498c-a7e8-46948f11ed8b',
+      email: 'Ilia.Visnevschii@talentship.io',
+      username: 'talentship_Ilia.Visnevschii@talentship.io',
+      cognitoSub: '73f43852-3071-70b8-3f95-096ffc104940',
+      name: 'Ilia Visnevschii',
+      createdAt: '2025-01-13T08:34:54.304Z',
+      lastLogin: '2025-09-29T13:06:26.691Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '3b28c1b4-975c-49bc-8512-00c855be3491',
+      email: 'Sujai.ramkumar@talentship.io',
+      username: 'talentship_Sujai.ramkumar@talentship.io',
+      cognitoSub: 'd394e8d2-f031-7052-b180-7ce95f1a7bda',
+      name: 'Sujai Ramkumar',
+      createdAt: '2025-04-08T09:13:09.509Z',
+      lastLogin: '2025-10-09T13:21:06.431Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    },
+    {
+      id: '3b5708e0-cecf-44f7-b706-80178c2a12e3',
+      email: 'zacharias.doehmann@octonomy.ai',
+      username: 'talentship_Zacharias.Doehmann@octonomy.ai',
+      cognitoSub: '4364f8a2-3081-705c-60e9-f38c0d1f04bb',
+      name: 'zacharias Doehmann',
+      createdAt: '2025-04-28T12:49:06.467Z',
+      lastLogin: '2025-09-09T15:41:36.636Z',
+      status: true,
+      role: 'Super Admin',
+      roleType: 'SUPER_ADMIN'
+    }
+  ],
+  pagination: { totalRecords: 70, totalPages: 7 }
+}

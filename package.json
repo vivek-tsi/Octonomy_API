@@ -6,7 +6,10 @@
     "env:test": "cross-env test_env=test npx playwright test",
     "env:demo": "cross-env test_env=demo npx playwright test",
     "env:prod": "cross-env test_env=prod npx playwright test",
-    "env:stage": "cross-env test_env=stage npx playwright test"
+    "env:stg": "cross-env test_env=stg npx playwright test",
+    "allure:generate": "npx allure generate ./allure-results -o ./allure-report --clean",
+    "allure:open": "npx allure open ./allure-report",
+    "allure:delete" :"rm -rf allure-results allure-report"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +23,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.0.0",
+    "browser": "^0.2.6",
     "dotenv": "^17.2.3",
     "typescript": "^5.9.3"
   }

@@ -1,0 +1,75 @@
+Updating tool data: {
+  name: 'Updated Tool Name',
+  description: 'Updated tool description',
+  connectorId: '076d674c-95fe-4799-9015-51c106b4aff7',
+  connectorType: 'HTTP_CONNECTOR',
+  version: 'v2',
+  method: 'POST',
+  bodyTemplate: {
+    url: 'https://talentship.stg.octonomy.ai/',
+    headers: {
+      Authorization: 'eyJraWQiOiJiVmZGTDVIc3U3MDZhRUgxc2M0MHZQZkZEV2VOTW5rNW1RVHdjalVEUTNnPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MzE0Nzg3Mi00MDIxLTcwNjUtNTI2NS1iNTU4ZDg0NjBmZDkiLCJjb2duaXRvOmdyb3VwcyI6WyJCVVNJTkVTU19BTkFMWVNUIl0sImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX01PMm9HWWtqRyIsInZlcnNpb24iOjIsImNsaWVudF9pZCI6IjFpaXNtNGE1NzR0MHBsdThtcTZsa201azdqIiwib3JpZ2luX2p0aSI6IjQ1MmJmOWNhLTQ0MGYtNGUwYi05YTMzLTJlNWFjMTY4MjBjNyIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE3NjA3OTEzNDksImV4cCI6MTc2MDg3Nzc0OSwiaWF0IjoxNzYwNzkxMzQ5LCJqdGkiOiI4YmU0YzI4ZC1jODY5LTRmMGYtOGNkZi03YTZkMTNmMDJiNmQiLCJ1c2VybmFtZSI6InRhbGVudHNoaXBfcXVpY2tzdGVwLXFhLXVzZXItMDFAdGFsZW50c2hpcC5pbyJ9.DXTMK9mN7UGkktkrkFLnOmBDn6SEGXzCaGiaZUaxtzmvdFt3WKNMUWFAfdYt6H2-nbh5ZEiDt_tk02XAjIV3V1wuFT8eZtgvUWjs0sdGDIReNQoJACs8ycJsSEK_eu8I30RCoADC4MawS47yntFblItRo-izf6QkXS7ycXLfgVPwgjeuPBv-nB-vubRybFOAT_3KCQQaVVhE9SdOgAJO95hPE3bEf_RXaI2FZt2PcW7uPDS64A_Ubkd3L8z8kIN2H6u6-JJwNdal1lWCBX_-6nfNiC4A_BC6-5_JJjWgzxH6_8EHX0NJia-OC3VpQv6VQ-pdUZ6YqtbnwqSrq0ujaQ'
+    }
+  },
+  status: 'ACTIVE',
+  params: [
+    {
+      toolId: 'tool-uuid-1',
+      name: 'userId',
+      description: 'The ID of the user',
+      type: 'STRING',
+      usageIn: 'BODY',
+      required: true,
+      multi: false,
+      position: 1,
+      validation: [Object]
+    }
+  ]
+}
+{
+  id: '5b73062b-4ceb-4000-9abe-e845b028fc9c',
+  name: 'Updated Tool Name',
+  toolId: 'updatedToolName',
+  description: 'Updated tool description',
+  connectorId: '076d674c-95fe-4799-9015-51c106b4aff7',
+  connectorType: 'HTTP_CONNECTOR',
+  version: 'v2',
+  method: 'POST',
+  slug: '',
+  bodyTemplate: '{"url":"https://talentship.stg.octonomy.ai/","headers":{"Authorization":"eyJraWQiOiJiVmZGTDVIc3U3MDZhRUgxc2M0MHZQZkZEV2VOTW5rNW1RVHdjalVEUTNnPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MzE0Nzg3Mi00MDIxLTcwNjUtNTI2NS1iNTU4ZDg0NjBmZDkiLCJjb2duaXRvOmdyb3VwcyI6WyJCVVNJTkVTU19BTkFMWVNUIl0sImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX01PMm9HWWtqRyIsInZlcnNpb24iOjIsImNsaWVudF9pZCI6IjFpaXNtNGE1NzR0MHBsdThtcTZsa201azdqIiwib3JpZ2luX2p0aSI6IjQ1MmJmOWNhLTQ0MGYtNGUwYi05YTMzLTJlNWFjMTY4MjBjNyIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE3NjA3OTEzNDksImV4cCI6MTc2MDg3Nzc0OSwiaWF0IjoxNzYwNzkxMzQ5LCJqdGkiOiI4YmU0YzI4ZC1jODY5LTRmMGYtOGNkZi03YTZkMTNmMDJiNmQiLCJ1c2VybmFtZSI6InRhbGVudHNoaXBfcXVpY2tzdGVwLXFhLXVzZXItMDFAdGFsZW50c2hpcC5pbyJ9.DXTMK9mN7UGkktkrkFLnOmBDn6SEGXzCaGiaZUaxtzmvdFt3WKNMUWFAfdYt6H2-nbh5ZEiDt_tk02XAjIV3V1wuFT8eZtgvUWjs0sdGDIReNQoJACs8ycJsSEK_eu8I30RCoADC4MawS47yntFblItRo-izf6QkXS7ycXLfgVPwgjeuPBv-nB-vubRybFOAT_3KCQQaVVhE9SdOgAJO95hPE3bEf_RXaI2FZt2PcW7uPDS64A_Ubkd3L8z8kIN2H6u6-JJwNdal1lWCBX_-6nfNiC4A_BC6-5_JJjWgzxH6_8EHX0NJia-OC3VpQv6VQ-pdUZ6YqtbnwqSrq0ujaQ"}}',
+  createdAt: '2025-10-18T12:54:17.885Z',
+  updatedAt: '2025-10-18T12:54:18.691Z',
+  deletedAt: null,
+  createdBy: '50413dd8-0011-4776-a9d0-5b4ab0ae4a81',
+  updatedBy: null,
+  deletedBy: null,
+  runtime: 'HTTP',
+  type: 'ENDPOINT',
+  apiType: 'REST',
+  environment: null,
+  sourceType: null,
+  sourcePath: null,
+  sourceFormat: null,
+  entryPoint: null,
+  status: 'ACTIVE',
+  sourceVersion: null,
+  params: [
+    {
+      id: '041fa2a1-715f-48c0-ba54-f024392bc0bc',
+      toolId: '5b73062b-4ceb-4000-9abe-e845b028fc9c',
+      parentParamId: null,
+      name: 'userId',
+      description: 'The ID of the user',
+      type: 'STRING',
+      defaultValue: null,
+      usageIn: 'BODY',
+      required: true,
+      multi: false,
+      minItems: null,
+      maxItems: null,
+      position: 1,
+      validation: [Object]
+    }
+  ]
+}
+OK
