@@ -1,0 +1,11 @@
+Not Found
+{
+  type: 'urn:octonomy:problem/not-found',
+  title: 'Not Found',
+  status: 404,
+  detail: 'An unexpected error occurred.',
+  instance: '/api/v1/connector?filter[name][eq]=elevenlabs',
+  timestamp: '2026-10-13T13:00:48.131Z',
+  code: 'HTTP_NOT_FOUND',
+  traceId: '9b5c933c-4375-48d8-b23d-3f430d8bd871'
+}

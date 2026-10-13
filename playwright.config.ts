@@ -1,18 +1,26 @@
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
-// import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '../utility/.env.test') });
 
+// Load env in every Playwright process (config + workers). globalSetup alone does not share process.env with workers.
+if (process.env.test_env) {
+  dotenv.config({
+    path: `./env/.env.${process.env.test_env}`,
+    override: false,
+  });
+}
 
 export default defineConfig({
   testDir: './tests',
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  // One worker so the suite shares one service-account token
+  workers: 1,
   reporter: [
-  ['html'], 
-  ['allure-playwright']],
+    ['html'],
+    ['allure-playwright'],
+    ['./reporters/qality-reporter.ts'],
+  ],
   globalSetup:'utility/globalsetup.ts',
   timeout:30000,
   

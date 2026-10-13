@@ -1,0 +1,12 @@
+Using service account token from env/.env.test
+Not Found
+{
+  type: 'urn:octonomy:problem/not-found',
+  title: 'Not Found',
+  status: 404,
+  detail: 'An unexpected error occurred.',
+  instance: '/api/v1/connector?filter[name][contains]=jira',
+  timestamp: '2026-10-13T13:09:30.567Z',
+  code: 'HTTP_NOT_FOUND',
+  traceId: '67296890-f48d-4a20-b7c4-d6a999b4e6d2'
+}

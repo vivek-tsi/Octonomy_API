@@ -1,0 +1,12 @@
+Using service account token from env/.env.test
+Not Found
+{
+  type: 'urn:octonomy:problem/not-found',
+  title: 'Not Found',
+  status: 404,
+  detail: 'An unexpected error occurred.',
+  instance: '/api/v1/connector?filter[name][eq]=elevenlabs',
+  timestamp: '2026-10-13T13:09:27.625Z',
+  code: 'HTTP_NOT_FOUND',
+  traceId: 'b3e53cd4-199a-43c8-b141-1c37417d2fc3'
+}

@@ -1,0 +1,18 @@
+OK
+{
+  data: [
+    {
+      id: 'd0c24fd7-c676-4462-8a2b-919a710783d0',
+      name: 'Atlassian Jira',
+      integrationType: 'atlassianjira',
+      isActive: true,
+      connectionId: 'd9c2425d-5ee1-4c1f-a9bc-6f16a71f4c74',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/jira.svg',
+      webUrl: 'https://atlassian.com',
+      syncStatus: null
+    }
+  ],
+  nextCursor: null
+}

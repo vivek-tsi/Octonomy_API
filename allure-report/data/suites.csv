@@ -1,5 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","838","Create new tool","chrome","Sat Oct 18 18:12:33 IST 2025","passed","Sat Oct 18 18:12:34 IST 2025","Users API","user.test.ts","",""
-"","803","Update tool","chrome","Sat Oct 18 18:12:34 IST 2025","passed","Sat Oct 18 18:12:34 IST 2025","Users API","user.test.ts","",""
-"","17957","should get list of users","chrome","Sat Oct 18 18:12:14 IST 2025","passed","Sat Oct 18 18:12:32 IST 2025","Users API","user.test.ts","",""
-"","768","Delete tool","chrome","Sat Oct 18 18:12:34 IST 2025","passed","Sat Oct 18 18:12:35 IST 2025","Users API","user.test.ts","",""

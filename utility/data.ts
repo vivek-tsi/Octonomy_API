@@ -20,7 +20,8 @@ export function endpoints() {
   return {
     usersEndpoint: '/api/appconnect/users?role=SUPER_ADMIN&role=END_USER&role=SUPERVISOR&role=ANONYMOUS&page=1&limit=10',
     toolsEndpoint: '/api/appconnect/tools',
-    connectorsEndpoint: '/api/appconnect/connectors',
+    connectorCreateEndpoint: '/api/appconnect/customers/connector',
+    getConnectorsEndpoint: '/api/appconnect/connectors',
   };
 }
 
@@ -36,8 +37,8 @@ const LOGIN = {
   },
 
   user: {
-    email: "quickstep-qa-user-01@talentship.io",
-    password: "Octo@001"
+    email: "quickstep-qa-user-05@octonomy.ai",
+    password: "8FH%2^gE~-G3.6hq{h"
   },
 };
 
@@ -80,3 +81,34 @@ export function updateToolData() {
   ]
 }
   };
+
+  export function newConnectorData() {
+
+return {
+
+  "name": faker.string.alpha({ length: { min: 5, max: 7 } }),
+  "logoUrl": null,
+  "webUrl": "",
+  "authType": [
+    "BASIC_AUTH"
+  ],
+  "categoryId": [
+    "d31091e4-52df-468e-b816-f65455c5e3bd"
+  ],
+  "credentials": [
+    {
+      "type": "BASIC_AUTH",
+      "metadata": {
+        "baseUrl": ""
+      },
+      "username": "test",
+      "password": "test@1234"
+    }
+  ]
+}
+
+
+
+
+
+  }

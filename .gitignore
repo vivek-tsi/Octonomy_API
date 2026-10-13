@@ -6,3 +6,66 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Playwright test results & reports
+test-results/
+playwright-report/
+.runtime/
+*.png
+*.mp4
+
+# Environment and auth files (Librarian bearer, DB, and other secrets)
+*.env
+src/.env
+.env
+*.auth
+
+FRAMEWORK.md
+
+*.pem
+scripts/jwt-bearer/*.json
+
+# QAlity Plus local tooling + cache (not for main)
+scripts/qality/
+scripts/dry-run/
+
+# SQS worker concurrency probe: local investigation tooling + run artifacts
+scripts/sqs-concurrency/
+scripts/dbms-onboarding/
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.playwright-mcp/
+
+reports/html/*
+reports/history/*
+reports/raw/*
+reports/assets/*
+reports/conversation/*
+reports/v2/*
+!reports/.gitkeep
+
+.tmp/
+
+.cursor/rules/
+
+tmp/
+
+test_coverage_report.md
+test_coverage_non_auto.csv
+test_coverage_auto.csv

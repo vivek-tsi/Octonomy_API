@@ -1,0 +1,42 @@
+OK
+{
+  data: [
+    {
+      id: '04ca5837-c01e-4bcb-b2ab-421654f440f4',
+      name: 'Microsoft Outlook',
+      integrationType: 'microsoftoutlook',
+      isActive: true,
+      connectionId: 'a7410656-28f6-40cc-81f3-25446c383616',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftoutlook.png',
+      webUrl: 'https://www.microsoft.com/en-us/microsoft-365/outlook',
+      syncStatus: null
+    },
+    {
+      id: 'bee27c0c-323b-4808-bc81-7a3af2b30610',
+      name: 'Microsoft Teams',
+      integrationType: 'microsoftteams',
+      isActive: true,
+      connectionId: '794dc80b-db62-4ff2-9497-8b2049271418',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftteams.png',
+      webUrl: 'https://teams.microsoft.com',
+      syncStatus: null
+    },
+    {
+      id: 'a57bbfd4-b41f-4d35-bc39-22295e2c1bd0',
+      name: 'Microsoft SharePoint',
+      integrationType: 'microsoftsharepoint',
+      isActive: true,
+      connectionId: 'd8de69a9-35f1-483c-be7f-1f8340822c87',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftsharepoint.svg',
+      webUrl: 'https://www.microsoft.com/en-ca/microsoft-365/sharepoint/collaboration',
+      syncStatus: null
+    }
+  ],
+  nextCursor: null
+}

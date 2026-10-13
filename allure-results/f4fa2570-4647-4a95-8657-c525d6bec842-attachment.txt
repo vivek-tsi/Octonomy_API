@@ -1,0 +1,19 @@
+Using service account token from env/.env.test
+OK
+{
+  data: [
+    {
+      id: '660d539a-e167-4433-a537-c753e90de5b6',
+      name: 'ElevenLabs',
+      integrationType: 'elevenlabs',
+      isActive: true,
+      connectionId: '68c6e076-5024-4707-a117-f269d44463a5',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.test.octonomy.ai/connector/logo/elevenlabs.png',
+      webUrl: 'https://api.elevenlabs.io/',
+      syncStatus: null
+    }
+  ],
+  nextCursor: null
+}

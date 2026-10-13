@@ -1,0 +1,12 @@
+Using service account token from env/.env.test
+Unauthorized
+{
+  type: 'urn:octonomy:problem/unauthenticated',
+  title: 'Unauthenticated',
+  status: 401,
+  detail: 'Authentication required.',
+  instance: '/api/v1/connectors',
+  timestamp: '2026-09-28T11:06:03.174Z',
+  code: 'UNAUTHENTICATED',
+  traceId: '19a8c4c2-0753-4efc-ad0e-b624e9534f0f'
+}

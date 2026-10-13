@@ -1,0 +1,249 @@
+Using service account token from env/.env.stg
+OK
+{
+  data: [
+    {
+      id: 'ec791ba3-8b14-4f41-a078-c00a23e92e09',
+      name: 'Zendesk Messaging',
+      integrationType: 'zendesk-messaging',
+      isActive: true,
+      connectionId: 'a0eb7389-d5f5-485e-948d-1053b05a7d3d',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/zendesk.png',
+      webUrl: 'https://www.zendesk.com',
+      syncStatus: null
+    },
+    {
+      id: '4f59939d-7ee2-4660-986b-925a74ed0aa9',
+      name: 'Freshchat',
+      integrationType: 'freshchat',
+      isActive: true,
+      connectionId: 'e384662a-2a99-40f2-b637-9e8d48a6f3f4',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/freshchat.png',
+      webUrl: 'https://www.freshchat.com',
+      syncStatus: null
+    },
+    {
+      id: 'c9766cc1-9844-4a8c-899d-edcf77294925',
+      name: 'Microsoft Outlook',
+      integrationType: 'microsoftoutlook',
+      isActive: true,
+      connectionId: '39afa5bd-d03f-4c70-8095-1f77d6ac3862',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftoutlook.png',
+      webUrl: 'https://www.microsoft.com/en-us/microsoft-365/outlook',
+      syncStatus: null
+    },
+    {
+      id: '2a010d70-038a-4198-97f0-d4ac417c9b40',
+      name: 'Microsoft Teams',
+      integrationType: 'microsoftteams',
+      isActive: true,
+      connectionId: 'eded6973-6ad9-4ecd-8d46-b079c99fc86f',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftteams.png',
+      webUrl: 'https://teams.microsoft.com',
+      syncStatus: null
+    },
+    {
+      id: '812fecc4-388d-4171-8000-62fa565200ba',
+      name: 'Platform',
+      integrationType: 'platform',
+      isActive: true,
+      connectionId: '260e4c6f-34c1-45e9-a7bf-6cc69e9a2950',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/octonomy.png',
+      webUrl: 'https://platform.octonomy.ai',
+      syncStatus: null
+    },
+    {
+      id: 'b4a9c3f6-e146-46a4-8254-6a3d3ab8e4a4',
+      name: 'Telnyx',
+      integrationType: 'telnyx',
+      isActive: true,
+      connectionId: 'c8b33eb3-dc17-4493-9972-27daf177b4fa',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/telnyx.png',
+      webUrl: 'https://telnyx.com/',
+      syncStatus: null
+    },
+    {
+      id: 'aab78e2c-2707-4d83-bcea-dfeb26a92438',
+      name: 'Gemini',
+      integrationType: 'gemini',
+      isActive: true,
+      connectionId: 'b94ccec1-cd9e-4db6-9830-fc0ebd917dd3',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/gemini.png',
+      webUrl: 'https://www.gemini.com/',
+      syncStatus: null
+    },
+    {
+      id: 'caadd8ee-1405-4341-8a69-f6f6ea3db4ff',
+      name: 'ElevenLabs',
+      integrationType: 'elevenlabs',
+      isActive: true,
+      connectionId: '2f98c35a-6e99-4eb5-9a78-43f496646bda',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/elevenlabs.png',
+      webUrl: 'https://api.elevenlabs.io/',
+      syncStatus: null
+    },
+    {
+      id: '098e6bc8-9af9-4b34-bd9c-07f2e37b5f7c',
+      name: 'Memory',
+      integrationType: 'memory',
+      isActive: true,
+      connectionId: 'c6b482b9-e88d-4e19-8229-b2bf1f3f82b4',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/octonomy.png',
+      webUrl: 'https://octonomy.ai',
+      syncStatus: null
+    },
+    {
+      id: '7880ec96-8b86-4c5c-986e-31d85ab34e2b',
+      name: 'Web Search',
+      integrationType: 'web-search',
+      isActive: true,
+      connectionId: '0f356ea1-b8c4-45ba-b84c-b939d5ca1dc5',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/octonomy.png',
+      webUrl: 'https://octonomy.ai',
+      syncStatus: null
+    },
+    {
+      id: 'd23f8d79-7bf6-4a7b-97ba-e7c2de95e04e',
+      name: 'Knowledge Base',
+      integrationType: 'knowledge-base',
+      isActive: true,
+      connectionId: 'b01831df-e146-44ee-8ac5-621c0aacc6d0',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/octonomy.png',
+      webUrl: 'https://octonomy.ai',
+      syncStatus: null
+    },
+    {
+      id: '035290db-7bac-4a99-82b2-6ffa6bf4b455',
+      name: 'Atlassian Jira',
+      integrationType: 'atlassianjira',
+      isActive: true,
+      connectionId: 'b8cca762-a446-4b75-8114-2fc42cda2c68',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/jira.svg',
+      webUrl: 'https://atlassian.com',
+      syncStatus: null
+    },
+    {
+      id: '32b078b9-6dd9-4c9b-9dac-a548e357a1b4',
+      name: 'Dixa',
+      integrationType: 'dixa',
+      isActive: true,
+      connectionId: '535b4462-1c87-4e8c-9e8f-d94ba5758392',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/dixa.png',
+      webUrl: 'https://dev.dixa.io',
+      syncStatus: null
+    },
+    {
+      id: 'd617d4b5-e7d3-4c49-a23f-2a178efd4669',
+      name: 'AWS Anthropic Claude',
+      integrationType: 'awsanthropicclaude',
+      isActive: true,
+      connectionId: '03bd630c-6bda-4a1e-977b-a3ba0a660a43',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/awsanthropicclaude.png',
+      webUrl: 'https://aws.amazon.com/bedrock/claude/',
+      syncStatus: null
+    },
+    {
+      id: 'aad171a1-3bde-48e4-8177-15979153ce11',
+      name: 'Microsoft SharePoint',
+      integrationType: 'microsoftsharepoint',
+      isActive: true,
+      connectionId: 'd6bde7aa-ad11-49f5-bc81-237f316cd53e',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftsharepoint.svg',
+      webUrl: 'https://www.microsoft.com/en-ca/microsoft-365/sharepoint/collaboration',
+      syncStatus: null
+    },
+    {
+      id: '37292b46-0fdf-4aa3-aaae-7564c1d657ec',
+      name: 'Vapi',
+      integrationType: 'vapi',
+      isActive: true,
+      connectionId: 'c8f56030-75ce-40ac-b676-a763e1ca4572',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/vapi.svg',
+      webUrl: 'https://vapi.ai/',
+      syncStatus: null
+    },
+    {
+      id: '2e418ddb-db3e-4b64-982a-6689c640f0fa',
+      name: 'freshdesk',
+      integrationType: 'freshdesk',
+      isActive: true,
+      connectionId: '64946b02-8069-4240-9979-2aa66de324e1',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/freshdesk.png',
+      webUrl: 'https://freshdesk.com',
+      syncStatus: null
+    },
+    {
+      id: 'fbb8699e-ebae-492e-8e09-70656dc974e4',
+      name: 'Amazon S3',
+      integrationType: 'awss3',
+      isActive: true,
+      connectionId: 'bd9b21a7-6c24-48b6-8589-4fd1f389a3ac',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/awss3.svg',
+      webUrl: 'https://aws.amazon.com/pm/serv-s3/?',
+      syncStatus: null
+    },
+    {
+      id: 'feaa8b8d-f984-403a-ba83-4b7e8ecfaab8',
+      name: 'Chatwoot',
+      integrationType: 'chatwoot',
+      isActive: true,
+      connectionId: 'a12adc40-0b2e-4e08-a696-cbd957a05bd2',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/chatwoot.png',
+      webUrl: 'https://www.chatwoot.com',
+      syncStatus: null
+    },
+    {
+      id: '5d11815c-4a44-42da-aaeb-d7fe07e7a561',
+      name: 'C4C',
+      integrationType: 'c4c',
+      isActive: true,
+      connectionId: '5296f638-a176-4de6-954a-6fc89996a88d',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.stg.octonomy.ai/connector/logo/c4c.png',
+      webUrl: 'https://community.sap.com',
+      syncStatus: null
+    }
+  ],
+  nextCursor: 'FLEy4ndbjuBwyr7V4zfXyn9CeD3spMzIXYUHv189wGt_3_-c5w0vPrzeXyCTVHtavqlxlvruSKY6_KzTrHndM1HkH8__oA0wONPuqbgPhMm6yiL9u4PYwu1U8mU_VBrvurqzRfm0ZpWTKrwPWs6TCYoupH2cvnX-mQ9m7R-GcA'
+}
+API connector count: 20 DB row count: 495
+nextCursor: FLEy4ndbjuBwyr7V4zfXyn9CeD3spMzIXYUHv189wGt_3_-c5w0vPrzeXyCTVHtavqlxlvruSKY6_KzTrHndM1HkH8__oA0wONPuqbgPhMm6yiL9u4PYwu1U8mU_VBrvurqzRfm0ZpWTKrwPWs6TCYoupH2cvnX-mQ9m7R-GcA

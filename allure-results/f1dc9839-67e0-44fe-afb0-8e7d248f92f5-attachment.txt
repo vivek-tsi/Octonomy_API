@@ -1,0 +1,66 @@
+OK
+{
+  data: [
+    {
+      id: '20041bfa-336f-4f9f-9cf7-cf88c3dfc593',
+      name: 'Zendesk Messaging',
+      integrationType: 'zendesk-messaging',
+      isActive: true,
+      connectionId: '9290002f-4e5e-4b08-b7d0-ab1a3296c237',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.test.octonomy.ai/connector/logo/zendesk.png',
+      webUrl: 'https://www.zendesk.com',
+      syncStatus: null
+    },
+    {
+      id: '21035188-fbda-4482-9f3c-7d5576d2cf14',
+      name: 'Freshchat',
+      integrationType: 'freshchat',
+      isActive: true,
+      connectionId: '1a5b5a74-8313-4ef6-a6d2-28801036ec03',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.test.octonomy.ai/connector/logo/freshchat.png',
+      webUrl: 'https://www.freshchat.com',
+      syncStatus: null
+    },
+    {
+      id: '04ca5837-c01e-4bcb-b2ab-421654f440f4',
+      name: 'Microsoft Outlook',
+      integrationType: 'microsoftoutlook',
+      isActive: true,
+      connectionId: 'a7410656-28f6-40cc-81f3-25446c383616',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftoutlook.png',
+      webUrl: 'https://www.microsoft.com/en-us/microsoft-365/outlook',
+      syncStatus: null
+    },
+    {
+      id: 'bee27c0c-323b-4808-bc81-7a3af2b30610',
+      name: 'Microsoft Teams',
+      integrationType: 'microsoftteams',
+      isActive: true,
+      connectionId: '794dc80b-db62-4ff2-9497-8b2049271418',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://api.unified.to/docs/images/microsoftteams.png',
+      webUrl: 'https://teams.microsoft.com',
+      syncStatus: null
+    },
+    {
+      id: '7dcf45d3-a7db-4e82-96a7-1e4696142bca',
+      name: 'Platform',
+      integrationType: 'platform',
+      isActive: true,
+      connectionId: '18df9df2-b2a7-48a8-9574-0a50df0dbd12',
+      connectorType: 'CUSTOM',
+      scope: 'GLOBAL',
+      logoUrl: 'https://assets.test.octonomy.ai/connector/logo/octonomy.png',
+      webUrl: 'https://platform.octonomy.ai',
+      syncStatus: null
+    }
+  ],
+  nextCursor: 'M-yU40tDVzmFS7EvfN4dQYBhFC_s8thY2K_kwBFQrwt6oF5akGXJju_TzvFPfNLOPIhJ6sqxvDRYOcIUleZ7b7Ngrqvgj_6-aPZhfiTxgZcNSATB87hlaDwgc0vR9dguT3Gzxc4KaiRpJ4W2KGdV1VaRLonmHFY5Zt98hjfwwQ'
+}

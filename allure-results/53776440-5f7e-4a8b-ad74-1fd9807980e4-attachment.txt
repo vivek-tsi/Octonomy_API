@@ -1,0 +1,11 @@
+Unauthorized
+{
+  statusCode: 401,
+  code: 'UNAUTHENTICATED',
+  message: 'Authentication required.',
+  params: {},
+  path: '/api/v1/connectors',
+  method: 'GET',
+  timestamp: '2026-08-08T13:03:22.632Z',
+  traceId: '3480cccc-4ed6-411f-b143-13ae0dda809e'
+}
